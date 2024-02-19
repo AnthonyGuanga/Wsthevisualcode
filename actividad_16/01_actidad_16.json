@@ -1,0 +1,66 @@
+{"videojuego":{
+    "id":"124111",
+    "nombre":"Cult of the Lamb",
+    "fecha_de_creacion":"10 de junio de 2022",
+    "nota":"9/10",
+    "programadores":[
+        {"programdor1":{
+            "id":"595265264965",
+            "nombre":"Felipe garcia",
+            "dni":"59595965985",
+            "sudonimo":"uchija69",
+            "fecha_de_nacimiento":"2000/01/17",
+            "direccion":{
+                "tipo_de_via":"Segriá, Maials País",
+                "Nombre_de_la_via":"C-12 eje del Ebro",
+                "Codigo_postal":"41.32303796181374",
+                "Pais":"espania"
+                 }
+            }
+        },
+        {"programdor2":{
+            "id":"595265445",
+            "nombre":"Alfredo martines",
+            "dni":"4644846352",
+            "sudonimo":"Elpollagrnade ",
+            "fecha_de_nacimiento":"1976/05/13",
+            "direccion":{
+                "tipo_de_via":"Baztan-Bidasoa",
+                "Nombre_de_la_via":"Carretera de Maya",
+                "Codigo_postal":"43.19876947305843",
+                "Pais":"espania"
+                 }
+            }
+        },
+        {"programdor3":{
+            "id":"595265464",
+            "nombre":"Paul magro",
+            "dni":"4854948484 ",
+            "sudonimo":"Elputomamo  ",
+            "fecha_de_nacimiento":"2003/03/27",
+            "direccion":{
+                "tipo_de_via":"Caserio Anita Cepeda s/n.",
+                "Nombre_de_la_via":"Murcia, Altiplano ",
+                "Codigo_postal":"38.7452927,",
+                "Pais":"espania"
+                 }
+            }
+        }
+
+    ],
+
+    "compania":{
+        "id":"0269658964",
+        "nombre":"Massive Monster",
+        "nif":"4594804415",
+        "direccion":{
+            "tipo_de_via":"100 FATHER MEL ST",
+            "Nombre_de_la_via":"PITI GU",
+            "Codigo_postal":"96915",
+            "Pais":"usa"
+
+        }
+    },
+    "Web_referencia":"https://www.cultofthelamb.com"
+    }
+}
