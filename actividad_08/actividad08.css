@@ -1,0 +1,32 @@
+.blanco{
+    color: rgb(248, 248, 255);
+    background-color:rgb(173, 216, 230) ;
+    width: 400px;
+    height: 50px;
+    margin: 0px 0px 10px 0px;
+}
+
+.img{
+    width: 400px;
+    height: 200px;
+}
+
+div{
+
+    color: rgb(176, 196, 222);
+
+}
+.Amarillo{
+    color: rgb(238, 130, 238);
+
+}
+.text{
+   
+    font-size: 10px;
+    
+}
+
+.text2{
+    font-size: 2em;
+
+}
