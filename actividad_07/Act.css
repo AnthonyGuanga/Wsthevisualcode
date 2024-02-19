@@ -1,0 +1,35 @@
+
+
+.centrado{
+text-align: center;
+}
+
+.color1{
+    color: rgb(255, 251, 0);
+}
+.color2{
+    background-color: rgb(184, 184, 184);
+}
+.color3{
+    color: aliceblue;
+}
+.color4{
+    background-color: black;
+}
+.color5{
+    color: rgb(19, 129, 255);
+}
+.color6{
+    background-color: rgb(252, 103, 103);
+}
+#color7{
+    color: aqua;
+}
+h4{
+    color: cornflowerblue;
+    text-align: center;
+}
+.text{
+    color: cornflowerblue;
+    text-align: left;
+}
