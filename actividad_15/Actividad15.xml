@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<ciudad xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Actividad15_2.xsd">
+    <nombre>ada</nombre>
+    <codigoID></codigoID>
+    <problacion></problacion>
+    <alcalde>
+        <nombre></nombre>
+        <apellidos></apellidos>
+        <edad></edad>
+        <telefono></telefono>
+        <tarjetadecredito>
+        </tarjetadecredito>
+        <correoelectronico></correoelectronico>
+    </alcalde>
+    <funcionarios>
+        <funcionario>
+            <id></id>
+            <nombreApellido></nombreApellido>
+            <codigoPostal></codigoPostal>
+            <fechaDeNacimiento></fechaDeNacimiento>
+            <contraseña></contraseña>
+            <cuentaBancaria></cuentaBancaria>
+        </funcionario>
+    </funcionarios>
+</ciudad>
