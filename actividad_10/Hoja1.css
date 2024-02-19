@@ -1,0 +1,60 @@
+
+.relativo1{
+
+position: relative;
+background-color: rgb(144, 238, 144);
+width: 500px;
+height: 500px;
+left: 200px;
+
+}
+.relativo2{
+
+    position: relative;
+    background-color: rgb(107, 142, 35);
+    width: 700px;
+    height: 300px;
+    left: 700px;
+
+}
+.relativo3{
+
+    position: relative;
+    background-color: rgb(154, 205, 50);
+    width: 500px;
+    height: 400px;
+    left: 100px;
+}
+
+.Normal{
+
+    position: static;
+    background-color: rgb(152, 251, 152);
+    width: 900px;
+    height: 100px;
+  
+}
+
+.absoluto{
+
+    position: absolute;
+    background-color: rgb(46, 139, 87);
+    width: 300px;
+    height: 300px;
+    top: 100px;
+    left: 1500px;
+  
+}
+
+.caja_TamanoGrande{
+
+    position: relative;
+    background-color: rgb(143, 188, 143);
+    width: 1100px;
+    height: 300px;
+    left: 300px;
+}
+*{
+    outline: 1px solid red
+}
+
