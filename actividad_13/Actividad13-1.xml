@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<empresa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Actividad.xsd">
+  <NIF>4498449595 </NIF>
+  <española>true</española>
+  <capitalsocial> euro </capitalsocial>
+  <direccion>
+      <tipodevia>calle nueva </tipodevia>
+      <nombredevia> oreste</nombredevia>
+      <CP>45 </CP>
+      <pais> espñol</pais>
+  </direccion>
+  <empleados>
+    <empleado> juan</empleado>
+    <nombre> alberto </nombre>
+    <apellido> juan</apellido>
+    <apellido2>alberto</apellido2>
+    <DNI>8656595</DNI>
+    <extranjero>true</extranjero>
+    <fechadenacimiento> 01/23/2000</fechadenacimiento>
+    <salario> 3000 </salario>
+    <direcciones>
+      <direccion> calle de luz</direccion>
+      <pais> españia</pais>
+    </direcciones>
+    <direcciones2>
+      <direccion> calle oeste</direccion>
+      <pais> españia</pais>
+    </direcciones2>
+    <estacasado>true</estacasado>
+  </empleados>
+</empresa>
+   
