@@ -1,0 +1,26 @@
+<!ELEMENT videojuego (Nombre, Fecha_de_creacion, Nota, programadores+, Compania, Web_referencia?)>
+
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Fecha_de_creacion (#PCDATA)>
+<!ELEMENT Nota (#PCDATA)>
+<!ELEMENT Web_referencia (#PCDATA)>
+<!ELEMENT programadores (Programador+)>
+
+<!ATTLIST videojuego id CDATA #REQUIRED>
+
+<!ELEMENT Programador (Nombre, DNI, sudonimo, Fecha_de_nacimiento, Direccion)>
+<!ELEMENT DNI (#PCDATA)>
+<!ELEMENT sudonimo (#PCDATA)>
+<!ELEMENT Fecha_de_nacimiento (#PCDATA)>
+<!ELEMENT Direccion (tipo_de_via, Nombre_de_la_via, Codigo_postal, Pais)>
+<!ELEMENT tipo_de_via (#PCDATA)>
+<!ELEMENT Nombre_de_la_via (#PCDATA)>
+<!ELEMENT Codigo_postal (#PCDATA)>
+<!ELEMENT Pais (#PCDATA)>
+
+<!ATTLIST Programador id CDATA #REQUIRED>
+
+<!ATTLIST Compania id CDATA >
+
+<!ELEMENT Compania (Nombre, NIF)>
+<!ELEMENT NIF (#PCDATA)>
