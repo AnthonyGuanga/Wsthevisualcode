@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Videojuego id="minecraft">
+    <Nombre> Cult of the Lamb </Nombre>
+    <Fecha_de_cracion> 10 de junio de 2022 </Fecha_de_cracion>
+    <Nota> 9/10 </Nota>
+        <Programadores id="595265264965">
+            <Nombre> Felipe garcia</Nombre>
+            <DNI> 59595965985 </DNI> 
+            <sudonimo> uchija69 </sudonimo> 
+            <Fecha_de_nacimiento> 2000/01/17 </Fecha_de_nacimiento>
+                <Direccion>
+                    <tipo_de_via> Segriá, Maials País </tipo_de_via>
+                    <Nombre_de_la_via> C-12 eje del Ebro </Nombre_de_la_via>
+                    <Codigo_postal> 41.32303796181374 </Codigo_postal> 
+                    <Pais>  España </Pais> 
+                </Direccion>
+        </Programadores>
+
+        <Programadores id="595265445"> 
+            <Nombre> Alfredo martines</Nombre>
+            <DNI> 4644846352</DNI> 
+            <sudonimo> Elpollagrnade </sudonimo> 
+            <Fecha_de_nacimiento> 1976/05/13 </Fecha_de_nacimiento>
+                <Direccion>  
+                    <tipo_de_via> Baztan-Bidasoa</tipo_de_via>
+                    <Nombre_de_la_via> Carretera de Maya</Nombre_de_la_via>
+                    <Codigo_postal> 43.19876947305843 </Codigo_postal> 
+                    <Pais> España </Pais> 
+                </Direccion>
+        </Programadores>
+
+        <Programadores id="595265464">
+            <Nombre> Paul magro</Nombre>
+            <DNI> 4854948484 </DNI> 
+            <sudonimo> Elputomamo </sudonimo> 
+            <Fecha_de_nacimiento> 2003/03/27 </Fecha_de_nacimiento>
+                <Direccion> 
+                    <tipo_de_via> Caserio Anita Cepeda s/n. </tipo_de_via>
+                    <Nombre_de_la_via> Murcia, Altiplano </Nombre_de_la_via>
+                    <Codigo_postal> 38.7452927, </Codigo_postal> 
+                    <Pais> España </Pais> 
+                </Direccion>
+        </Programadores>
+
+    <Compania id="0269658964"> 
+        <nombre> Massive Monster </nombre> 
+        <NIF>4594804415 </NIF>
+            <Direccion> 
+                    <tipo_de_via> 100 FATHER MEL ST </tipo_de_via>
+                    <Nombre_de_la_via>PITI GU </Nombre_de_la_via>
+                    <Codigo_postal> 96915 </Codigo_postal> 
+                    <Pais> usa </Pais> 
+            </Direccion> 
+    </Compania>
+    <Web_referencia> https://www.cultofthelamb.com </Web_referencia>
+    <![CDATA[
+        <!-- comentarios html-->
+        <html>
+            <head>
+               	<title>juego del año </title>
+		<style> 
+h1{
+
+	text-align: center;
+}
+h2{
+
+	text-align: center;
+	color:red;
+}
+img{
+	width: 1000px;
+	
+}
+		</style> 
+</head>
+<body>
+<h1> BIENVENIDO</h1>
+<h2> Cult of the Lamb </h2>
+<div style="text-align: center;" >
+	<img src="https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/2x1_NSwitchDS_CultOfTheLamb_image1600w.jpg"/>
+</div>
+</body>
+</html>
+    ]]>
+</Videojuego>
