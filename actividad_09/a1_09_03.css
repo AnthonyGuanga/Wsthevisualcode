@@ -1,0 +1,14 @@
+.Num1{
+    
+ list-style-image: url(Bull.jpg);
+ 
+}
+.num2{
+    list-style-image: url(Ivysaur.jpg);
+}
+.Num3{
+    list-style-image: url(Venusaur.png);
+}
+.num4{
+    list-style-type: square;
+}
