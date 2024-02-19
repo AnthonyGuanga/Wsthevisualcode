@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PizzaClout</title>
+</head>
+<body>
+    <h1>Pedidos de PizzaClout</h1>
+    <form action="procesarPeticion.jsp" method="get">
+        <fieldset>
+            <legend>Información del Cliente</legend>
+
+            <label for="nombre">Nombre:</label>
+            <input id="nombre" type="text" name="nombre" placeholder="Ingrese su nombre" required/>
+            <br/>
+            <label for="pass">Contraseña:</label>
+            <input id="pass" type="password" name="pass" placeholder="Ingrese su contraseña" required/>
+            <br/>
+            <label for="Ubi">Ubicacion:</label>
+            <input id="Ubi" type="text" name="Ubi"placeholder="Ingrese su ubicacion" required/>
+            <br/>
+            <label for="Telefo">Telefono:</label>
+            <input id="Telefo" type="number" name="Telefo" placeholder="Ingrese su telefono" required/>
+            <br/>
+            <label for="Corre">Correo electrónico:</label>
+            <input id="Corre" type="text" name="Coree" placeholder="Ingrese su correo electrónico" />
+            <br/>
+            <label for="edad">Edad:</label>
+            <input id="edad" type="number" name="edad" placeholder="Ingrese su edad" required/>
+            <br/>
+            <h4>Tipo de PizzaClout</h4>
+            <label for="Tamaño_Pizza">Tamaño de la pizza</label>
+            <br />	
+            <input type="radio" name="Tamaño_Pizza" value="P" />Pequeño (8 pulgadas)<br />	
+            <input type="radio" name="Tamaño_Pizza" value="M" />Mediano (12 pulgadas)<br />	
+            <input type="radio" name="Tamaño_Pizza" value="G" checked/>Grande (16 pulgadas)<br />	
+            <br/>
+            <label for="Tipo_Masa">Tipo de masa</label>
+            <br/>
+            <input type="radio" name="Tipo_Masa" value="Fina"checked/>Masa fina<br/>
+            <input type="radio" name="Tipo_Masa" value="normal"/>Masa normal<br/>
+            <input type="radio" name="Tipo_Masa" value="gruesa"/>Masa gruesa<br/>
+            <br/>
+            <label for="Ingredientes">Ingredientes </label>
+            <br/>
+            <input type="checkbox"name="ingredientes" value="Pepperoni"/>Pepperoni<br/>
+            <input type="checkbox"name="ingredientes" value="Judías_verdes"/>Judías verdes<br/>
+            <input type="checkbox"name="ingredientes" value="Jamón"/>Jamón<br/>
+            <input type="checkbox"name="ingredientes" value="Alcaparras"/>Alcaparras<br/>
+            <input type="checkbox"name="ingredientes" value="Aceitunas" checked/>Aceitunas<br/>
+            <input type="checkbox"name="ingredientes" value="Cebolla" checked/>Cebolla<br/>
+            <input type="checkbox"name="ingredientes" value="Salchicha"/>Salchicha<br/>
+            <input type="checkbox"name="ingredientes" value="Piña"/>Piña<br/>
+            <br/>
+            <label for="Elija_su_salsa">Elija su salsa</label>
+            <br/>
+            <input type="radio" name="Elija_su_salsa" value="Tomate" checked/>Tomate<br/>
+            <input type="radio" name="Elija_su_salsa" value="Barbacoa"/>Barbacoa<br/>
+            <input type="radio" name="Elija_su_salsa" value="Pesto"/>Pesto<br/>
+            <input type="radio" name="Elija_su_salsa" value="Sin_salsa"/>Sin salsa<br/>
+            <br/>
+            <label for="Desea">Desea algo mas:</label>
+            <br/>
+            <textarea style="resize: none;" rows="2" cols="60" name="Desea"></textarea>
+            <br/>
+            <label for="Metodo_de_pago"><h5>Metodo de pago:</h5></label>
+            <select name="Metodo_de_pago">
+                <option value="Efectivo">Efectivo</option>
+                <option value="Trajeta">Tarjeta de crédito</option>
+                <option value="PayPal">PayPal</option>
+            </select>
+            <H4>Enviar Pedido:</H4>
+            
+            <label for="terminos">¿Acepta los terminos de uso? </label>
+            <br/>
+            <a href="terminosycondiciones.html">Terminos y condiciones</a>
+            <br/>
+            He leido y acepto los terminos de uso <input type="checkbox" name="terminos" value="Y" />
+            <br/>
+            <br/>
+            <input type="submit" value="Enviar datos" />
+            <input type="reset" value="Limpiar orden" />
+         </fieldset>
+</form>
+</body>
+</html>
