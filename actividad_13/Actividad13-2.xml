@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation= "Actividad13-1.xsd">
+    <nombre>Super Biblioteca</nombre>
+    <seccion>
+      <libro>
+        <titulo>Gaturro</titulo>
+        <autor>Nik</autor>
+        <resumen>Un gato vago como gardfiel pero argento</resumen>
+        <editorial>
+          <nombre>Editorial Nickelodeon</nombre>
+          <ciudad>Bs As</ciudad>
+        </editorial>
+      </libro>
+      <libro>
+        <titulo>Caperucita roja</titulo>
+        <autor>Disney</autor>
+        <anio>1997</anio>
+        <resumen>Nena caminando por bosques llevando galletas</resumen>
+        <editorial>
+          <nombre>Ediciones Mágicas</nombre>
+          <ciudad>Disneylandia</ciudad>
+        </editorial>
+      </libro>
+    </seccion>
+    <seccion>
+      <libro>
+        <titulo>El secreto de sus ojos</titulo>
+        <autor>Gabriel García Márquez</autor>
+        <anio>1967</anio>
+        <resumen>Asesinato de una wacha random</resumen>
+        <editorial>
+          <nombre>Alfaguara</nombre>
+          <ciudad>Bs As</ciudad>
+        </editorial>
+      </libro>
+    </seccion>
+    <seccion>
+      <libro>
+        <titulo>La metamorfosis</titulo>
+        <autor>Franz Kafka</autor>
+        <resumen>Un pibe que amanece y es un bicho</resumen>
+      <editorial>
+              <codigo>ED45TR</codigo>
+          <nombre>Editorial Akal</nombre>
+          <ciudad>Londres</ciudad>
+        </editorial>
+      </libro>
+      <libro>
+        <titulo>Fundación</titulo>
+        <autor>Isaac Asimov</autor>
+        <anio>1951</anio>
+        <resumen>La historia de la Fundación para prever el futuro galáctico.</resumen>
+        <editorial>
+          <nombre>Ediciones Galácticas</nombre>
+          <ciudad>Nueva York</ciudad>
+        </editorial>
+      </libro>
+    </seccion>
+  </biblioteca>

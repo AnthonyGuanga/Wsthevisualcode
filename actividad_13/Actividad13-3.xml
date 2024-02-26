@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-  xsi:noNamespaceSchemaLocation= "Actividad13-1.xsd">
+<!DOCTYPE biblioteca SYSTEM "Actividad13-3.dtd">
+<biblioteca>
   <nombre>Biblioteca nacional</nombre>
   <seccion>
     <libro>

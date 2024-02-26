@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE empresa SYSTEM "Actividad13-4.dtd">
+<empresa>
+    <nombre>Empresa ABC</nombre>
+    <NIF>123456789A</NIF>
+    <esEspaniola>true</esEspaniola>
+    <capital_social>25000</capital_social>
+    <direccion_empresa>
+        <tipo_via>Calle</tipo_via>
+        <nombre_via>Gran Vía</nombre_via>
+        <CP>28001</CP>
+        <pais>España</pais>
+    </direccion_empresa>
+    <empleados>
+        <empleado>
+            <nombre>Juan</nombre>
+            <apellido>García</apellido>
+            <apellido>Pérez</apellido>
+            <DNI>12345678A</DNI>
+            <extranjero>false</extranjero>
+            <fecha_nacimiento>1990-05-15</fecha_nacimiento>
+            <salario>2500.00</salario>
+            <direccion_empleado>
+                <cadena>Calle Mayor 12, Madrid</cadena>
+                <pais>España</pais>
+            </direccion_empleado>
+            <casado>true</casado>
+        </empleado>
+        <empleado>
+            <nombre>Maria</nombre>
+            <apellido>López</apellido>
+            <apellido>García</apellido>
+            <DNI>87654321B</DNI>
+            <extranjero>false</extranjero>
+            <fecha_nacimiento>1985-10-20</fecha_nacimiento>
+            <salario>3000.00</salario>
+            <direccion_empleado>
+                <cadena>Calle Sol 5, Barcelona</cadena>
+                <pais>España</pais>
+            </direccion_empleado>
+            <casado>false</casado>
+        </empleado>
+    </empleados>
+</empresa>

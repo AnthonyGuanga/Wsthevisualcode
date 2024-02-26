@@ -1,0 +1,22 @@
+<!ELEMENT empresa (nombre, NIF, esEspaniola, capital_social, direccion_empresa, empleados)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT NIF (#PCDATA)>
+  <!ELEMENT esEspaniola (#PCDATA)>
+  <!ELEMENT capital_social (#PCDATA)>
+ 
+  <!ELEMENT direccion_empresa (tipo_via, nombre_via, CP, pais)>
+  <!ELEMENT tipo_via (#PCDATA)>
+  <!ELEMENT nombre_via (#PCDATA)>
+  <!ELEMENT CP (#PCDATA)>
+  <!ELEMENT pais (#PCDATA)>
+  
+  <!ELEMENT empleados (empleado+)>
+  <!ELEMENT empleado (nombre, apellido+, DNI, extranjero, fecha_nacimiento, salario, direccion_empleado, casado?)>
+  <!ELEMENT casado (#PCDATA)>
+  <!ELEMENT apellido (#PCDATA)>
+  <!ELEMENT DNI (#PCDATA)>
+  <!ELEMENT extranjero (#PCDATA)>
+  <!ELEMENT fecha_nacimiento (#PCDATA)>
+  <!ELEMENT salario (#PCDATA)>
+  <!ELEMENT direccion_empleado (cadena, pais)>
+  <!ELEMENT cadena (#PCDATA)>
