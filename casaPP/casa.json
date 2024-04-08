@@ -1,0 +1,34 @@
+{
+    "casa" : {
+        "direccion" : {
+            "tipoVia" : "calle",
+            "nombreVia" : "Diamante",
+            "localidad" : "Madriz",
+            "cp" : "28234"
+        },
+        "precio" : 200000,
+        "esSegundaMano" : true,
+        "m2" : 30,
+        "jardin" : {
+            "m2" : 2,
+            "numeroDePlantas" : 5
+        },
+        "habitaciones" : [
+            {
+                "nombre" : "Hall",
+                "tipo" : "salon",
+                "m2" : 13
+            },
+            {
+                "nombre" : "salon-cocina",
+                "tipo" : "cocina",
+                "m2" : 10
+            },
+            {
+                "nombre" : "baño principal",
+                "tipo" : "baño",
+                "m2" : 5
+            }
+        ]
+    }
+}

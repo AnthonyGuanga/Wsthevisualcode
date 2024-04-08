@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="casa">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="direccion">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="tipoVia">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="calle"></xs:enumeration>
+                                        <xs:enumeration value="avenida"></xs:enumeration>
+                                        <xs:enumeration value="paseo"></xs:enumeration>
+                                        <xs:enumeration value="plaza"></xs:enumeration>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="nombreVia" type="xs:string"></xs:element>
+                            <xs:element name="localidad" type="xs:string"></xs:element>
+                            <xs:element name="cp" type="xs:string"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="precio" type="xs:double"></xs:element>
+                <xs:element name="esSegundaMano" type="xs:boolean"></xs:element>
+                <xs:element name="m2" type="xs:double"></xs:element>
+                <xs:element name="jardin">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="m2" type="xs:double"></xs:element>
+                            <xs:element name="numeroDePlantas" type="xs:integer"></xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" use="required">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:pattern value="[A-ZÑ]{2}\d{3}"></xs:pattern>
+                                    <!--
+                                    <xs:pattern value="[A-ZÑ][A-ZÑ][0-9]{3}"></xs:pattern>
+                                    <xs:pattern value="[A-ZÑ][A-ZÑ][0-9][0-9][0-9]"></xs:pattern>
+                                    <xs:pattern value="[A-ZÑ][A-ZÑ]\d\d\d"></xs:pattern>
+                                    <xs:pattern value="[A-ZÑ][A-ZÑ][0123456789]{3}"></xs:pattern>
+                                    -->
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="habitaciones">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="habitacion" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:all>
+                                        <xs:element name="tipo">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="cocina"></xs:enumeration>
+                                                    <xs:enumeration value="salon"></xs:enumeration>
+                                                    <xs:enumeration value="baño"></xs:enumeration>
+                                                    <xs:enumeration value="dormitorio"></xs:enumeration>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="m2" type="xs:double"></xs:element>
+                                        <xs:element name="nombre" type="xs:string"></xs:element>
+                                    </xs:all>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

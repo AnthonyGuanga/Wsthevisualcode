@@ -6,7 +6,7 @@
                 <xs:element name="nombre">
                     <xs:simpleType>
                         <xs:restriction base="xs:string">
-                            <xs:pattern value="[A-Za-z]{3,20}"></xs:pattern>
+                            <xs:pattern value="[A-Za-z]{2,19}"></xs:pattern>
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
@@ -34,7 +34,7 @@
                                 </xs:restriction>
                             </xs:simpleType>
                         </xs:element>
-                        <xs:element name="apellidos">
+                        <xs:element name="apellidos" maxOccurs="2">
                             <xs:simpleType>
                                 <xs:restriction base="xs:string">
                                     <xs:pattern value="[A-Za-z]+\s[A-Za-z]"></xs:pattern>
@@ -98,6 +98,7 @@
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:string">
                                                     <xs:pattern value="\d\D(%,$,@,!)"></xs:pattern>
+                                                    <xs:minLength value="10"></xs:minLength>
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>

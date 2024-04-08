@@ -1,0 +1,6 @@
+<!ELEMENT pelicula (titulo,fecha,actores,directore?)>
+
+<!ATTLIST pelicula id ID #REQUIRED>
+<!ATTLIST pelicula edad CDATA "20">
+
+<!ELEMENT  titulo (#PCDATA)>

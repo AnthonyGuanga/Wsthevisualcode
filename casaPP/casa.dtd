@@ -1,0 +1,19 @@
+<!ELEMENT casa (direccion,precio,esSegundaMano,m2,jardin,habitaciones)>
+
+<!ELEMENT direccion (tipoVia,nombreVia,localidad,cp)>
+<!ELEMENT tipoVia (#PCDATA)>
+<!ELEMENT nombreVia (#PCDATA)>
+<!ELEMENT localidad (#PCDATA)>
+<!ELEMENT cp (#PCDATA)>
+
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT esSegundaMano (#PCDATA)>
+<!ELEMENT m2 (#PCDATA)>
+<!ELEMENT jardin (m2,numeroDePlantas)>
+
+<!ELEMENT habitaciones (habitacion+)>
+<!ELEMENT habitacion (nombre,tipo,m2)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+
+<!ATTLIST jardin id ID #REQUIRED>

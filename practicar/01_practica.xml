@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trabajo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="01_practica.xsd">
+
+        <oficinas></oficinas>
+        <mesas>14</mesas>
+        <pisos id="12">
+            <ventanas></ventanas>
+            <piso></piso>
+        </pisos>
+</trabajo>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<casa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="casa.xsd">
+    <direccion>
+        <tipoVia>calle</tipoVia>
+        <nombreVia>Diamante</nombreVia>
+        <localidad>Madriz</localidad>
+        <cp>28234</cp>
+    </direccion>
+    <precio>200000</precio>
+    <esSegundaMano>true</esSegundaMano>
+    <m2>30</m2>
+    <jardin id="PJ123">
+        <m2>2</m2>
+        <numeroDePlantas>5</numeroDePlantas>
+    </jardin>
+    <habitaciones>
+        <habitacion>
+            <nombre>Hall</nombre>
+            <tipo>salon</tipo>
+            <m2>13</m2>
+        </habitacion>
+        <habitacion>
+            <nombre>salon-cocina</nombre>
+            <tipo>cocina</tipo>
+            <m2>10</m2>
+        </habitacion>
+        <habitacion>
+            <nombre>baño principal</nombre>
+            <tipo>baño</tipo>
+            <m2>5</m2>
+        </habitacion>
+    </habitaciones>
+</casa>
