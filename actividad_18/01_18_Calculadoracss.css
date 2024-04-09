@@ -8,8 +8,9 @@ align-items : center;
 }
 
 
-div{
-    background-color: rgb(128, 128, 128);
+form{
+    background-color: #788199;
+    border: 3px solid  #666f88;
     height: 50%;
     width: 45%;
     border-top-left-radius: 20px;
@@ -19,11 +20,12 @@ div{
 }
 
 
-button {
+.botom{
+
     height: 36px;
-    border: 3px solid  rgb(220, 220, 220);
+    border: 3px solid  #8990a2;
     font-size: 16px;
-    background-color: rgb(220, 220, 220);
+    background-color: #a3a8b7;
     cursor: pointer;
     color: white;
     margin-right: 10px;
@@ -33,5 +35,19 @@ button {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px ;
-  
-  }
+
+}
+.botom2{
+
+    height: 36px;
+    border: 3px solid  #8990a2;
+    font-size: 16px;
+    background-color: #a3a8b7;
+    cursor: pointer;
+    color: white;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 0 20px;
+   
+
+}

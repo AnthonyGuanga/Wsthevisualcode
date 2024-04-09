@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+        <h1>CALCULADORA</h1>
+        
+         <form name="calc"> <!--Formulario donde abarcara todas las etiquetas-->
+        <input type="Text" name="operando1" value="0" size="12"> <!--etiqueta input es metodo de entrada-->
+        <br>
+        <input type="Text" name="operando2" value="0" size="12">
+        <br>
+        <input type="Button" name="" value=" + " onclick="calcula('+')">
+        <input type="Button" name="" value=" - " onclick="calcula('-')">
+        <input type="Button" name="" value=" X " onclick="calcula('*')"> <!--etiqueta input metodo de boton-->
+        <input type="Button" name="" value=" / " onclick="calcula('/')">
+        <br>
+        <input type="Text" name="resultado" value="0" size="12">
+        </form>
+        
+        <script>
+          function calcula(operacion){
+            var operando1 = document.calc.operando1.value    //un valor cualquiera
+            var operando2 = document.calc.operando2.value     //segundo valor cualquiera
+            var result = eval(operando1 + operacion + operando2)
+            document.calc.resultado.value = result                   //es la suma de los dos valores
+        }
+        </script>
+        
+        
+</body>
+</html>

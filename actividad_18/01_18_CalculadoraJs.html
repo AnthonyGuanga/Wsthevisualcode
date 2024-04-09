@@ -3,31 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>document</title>
     <link rel="stylesheet" href="01_18_Calculadoracss.css">
     <script type="text/javascript" src="01_18_Calculadora.js"></script>
 </head>
 <body>
-    <div>
-        <div>
+        <form name="cal">
             <h1> &emsp; &emsp; &emsp;Caculadora guay</h1>
             <br/>
             <br/>
             <label> &emsp;Introduzca el primer numero :</label> 
-            <input  id="primerNumero" type="number" value=""/>
+            <input class="botom2" name="primerNumero" type="number" value=""/>
             <br/>
             <label> &emsp;Introduzca el segundo numero  :</label> 
-            <input  id="segundoNumero" type="number" value=""/>
+            <input class="botom2" name="segundoNumero" type="number" value=""/>
             <br/>
             <br/>
-            <label> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Resultado : </label> <input id="resultado" type="text" value="" />
+            <label> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Resultado : </label> <input class="botom2" name="resultado" type="button" value="" />
             <br/>
-            <button id="SUMAR" onclick="SUMAR()">SUMAR</button >
-            <button>RESTAR</button>
-            <br/>
-            <button>MULTIPLICA</button>
-            <button>DIVIDIR</button>
-        </div>
-    </div>
+            <input class="botom" type="Button" name="" value=" + " onclick="calcula('+')">
+            <input class="botom" type="button" name="" value=" - " onclick="calcula('-')">
+            <input class="botom" type="button" name="" value=" * " onclick="calcula('*')">
+            <input class="botom" type="button" name="" value=" / " onclick="calcula('/')">
+        </form>    
 </body>
 </html>

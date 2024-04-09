@@ -1,9 +1,8 @@
 
-function SUMAR(){
-    let a = document.getElementById("primerNumero");
-    let b = document.getElementById("segundoNumero")
-    let resu = document.getElementById("resultado")
+function calcula(operacion){
+    let primerNumero = document.cal.primerNumero.value
+    let segundoNumero = document.cal.segundoNumero.value
 
-   let sum = a + b;
-   console.log(sum)
+    let result = eval(primerNumero+operacion +segundoNumero)
+   document.cal.resultado.value = result
 }
