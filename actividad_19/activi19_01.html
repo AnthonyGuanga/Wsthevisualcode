@@ -11,31 +11,156 @@
     <h1> Hola usuario </h1>
     <!--Primer metodo-->
     <h2>Contador de números pares</h2>
-    <h3>Ingrese el rango de los numeros pares</h3>
-    <input class="boton1" name="prNumero" type="number" value="" >
-    <input class="boton2" name="seNumero" type="number" value="" >
-    <br/>
-    <input class="boton3" name="terNumero" type="button" value="" >
-    <input class="botom" type="Button" name="" value=" + " onclick="contadorNumeros()">
+
+        <h2>Contador de Números Pares</h2>
+        <label for="inicio">Primer numero</label>
+        <input type="number" id="inicio">
+        <br>
+        <label for="fin">Segundo numero </label>
+        <input type="number" id="fin">
+        <br>
+        <button onclick="contarNumerosPares()">Contar Pares</button>
+        <p id="resultado"></p>
+   
+    
      <!--Segundo metodo-->
     <h2>Conversor de temperatura</h2>
+        <label for="inicio2">Ingrese el numero que quieres convertir </label>
+        <input type="number"id="inicio2">
+        <br/>
+            <label for="convertir">Elegi = </label>
+            <select id="convertir">
+                <option value="CelsiusOP" >Celsius </option>
+                <option value="FahrenheitOP">Fahrenheit</option>
+            </select>
+            <button onclick="ConversorTemperatura()"> CONVERSO</button>
+        <p id="resultadoTWO"></p>
+             
+
+
      <!--Tercer metodo-->
-    <h2>juega adivinar el numero </h2>
+   
+    <h1>Juego: Adivina el Número</h1>
+    <p>Intenta adivinar un número entre 1 y 100:</p>
+    <input type="number" id="guess" min="1" max="100">
+    <button onclick="adivinarNumero()">Adivinar</button>
+    <p id="respuesta"></p>
+    <script>
+        // Generar un número aleatorio entre 1 y 100
+        var numeroSecreto = Math.floor(Math.random() * 100) + 1;
+    
+        function adivinarNumero() {
+          var intento = parseInt(document.getElementById("guess").value);
+    
+          if (intento === numeroSecreto) {
+            document.getElementById("respuesta").textContent = "¡Felicidades! ¡Has adivinado el número!";
+          } else if (intento < numeroSecreto) {
+            document.getElementById("respuesta").textContent = "Muy bajo. Intenta con un número más alto.";
+          } else {
+            document.getElementById("respuesta").textContent = "Muy alto. Intenta con un número más bajo.";
+          }
+        }
+      </script>
+
      <!--Cuarto metodo-->
     <h2>cambiar el color de la pantalla</h2>
-    
+    <h1>Cambiar Color de la Pantalla</h1>
+    <form>
+      <label for="colorInput">Color (Hexadecimal):</label>
+      <input type="text" id="colorInput" placeholder="Ejemplo: #ff0000">
+      <button type="button" onclick="cambiarColor()">Cambiar Color</button>
+    </form>
+  
+    <script>
+      function cambiarColor() {
+        var color = document.getElementById("colorInput").value;
+        document.body.style.backgroundColor = color;
+      }
+    </script>
 
 
      <!--Quinto metodo-->
     <h2>usuario contraseña </h2>
-    <input type="botom31" name="Usuario" type="text" value="">
+
+    <form onsubmit="return validarFormulario()">
+        <label for="usuario">Usuario:</label>
+        <input type="text" id="usuario" required>
+        <br>
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" required>
+        <br>
+        <button type="submit">Iniciar Sesión</button>
+      </form>
+    
+      <script>
+        function validarFormulario() {
+          var usuario = document.getElementById("usuario").value;
+          var contrasena = document.getElementById("contrasena").value;
+    
+          if (usuario === "goku" && contrasena === "Vegeta777") {
+            alert("¡Bienvenido!");
+            return true;
+          } else {
+            alert("Contraseña incorrecta");
+            return false;
+          }
+        }
+      </script>
+
+    
     <br/>
     <input type="botom32" name="contraseña" type="password" value="">
 
      <!--Sexto metodo -->
     <h2>Verificar de numero primos </h2>
+    <label for="numero">Ingresa un número:</label>
+    <input type="number" id="numero">
+    <button onclick="verificarPrimo()">Verificar</button>
+    <p id="resultado3"></p>
+  
+    <script>
+      function verificarPrimo() {
+        var numero = parseInt(document.getElementById("numero").value);
+        var esPrimo = true;
+  
+        if (numero <= 1) {
+          esPrimo = false;
+        } else {
+          for (var i = 2; i <= Math.sqrt(numero); i++) {
+            if (numero % i === 0) {
+              esPrimo = false;
+              break;
+            }
+          }
+        }
+  
+        if (esPrimo) {
+          document.getElementById("resultado3").textContent = numero + " es un número primo.";
+        } else {
+          document.getElementById("resultado3").textContent = numero + " no es un número primo.";
+        }
+      }
+    </script>
+    
      <!--septimo Metodo-->
     <h2>Generador de secuencia fibonacci </h2>
-     <!--Octavo metodo-->
+    <label for="terminos">Número de Términos:</label>
+  <input type="number" id="terminos">
+  <button onclick="generarFibonacci()">Generar</button>
+  <p id="resultado4"></p>
+
+  <script>
+    function generarFibonacci() {
+      var n = parseInt(document.getElementById("terminos").value);
+      var fibonacci = [0, 1];
+
+      for (var i = 2; i < n; i++) {
+        fibonacci.push(fibonacci[i - 1] + fibonacci[i - 2]);
+      }
+
+      document.getElementById("resultado4").textContent = "Secuencia Fibonacci: " + fibonacci.join(", ");
+    }
+  </script>
+  
 </body>
 </html>
