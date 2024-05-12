@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicios con Arrays</title>
+  <link rel="stylesheet" href="act2css.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Ejercicios con Arrays</h1>
+    
+    <!-- Ejercicio 1: Promedio -->
+    <div class="exercise">
+      <h2>Promedio</h2>
+      <div class="input-section">
+        <input type="number" id="promedioInput" placeholder="Ingrese un número">
+        <button onclick="agregarNumero('promedio')">Agregar Número</button>
+      </div>
+      <div class="result-section">
+        <button onclick="calcularPromedio()">Calcular Promedio</button>
+        <p id="promedioResultado"></p>
+      </div>
+    </div>
+
+    <!-- Ejercicio 2: Mayor Elemento -->
+    <div class="exercise">
+      <h2>Mayor Elemento</h2>
+      <div class="input-section">
+        <input type="number" id="mayorInput" placeholder="Ingrese un número">
+        <button onclick="agregarNumero('mayor')">Agregar Número</button>
+      </div>
+      <div class="result-section">
+        <button onclick="encontrarMayor()">Encontrar Mayor</button>
+        <p id="mayorResultado"></p>
+      </div>
+    </div>
+
+    <!-- Ejercicio 3: Contar Pares e Impares -->
+    <div class="exercise">
+      <h2>Contar Pares e Impares</h2>
+      <div class="input-section">
+        <input type="number" id="paresImparesInput" placeholder="Ingrese un número">
+        <button onclick="agregarNumero('paresImpares')">Agregar Número</button>
+      </div>
+      <div class="result-section">
+        <button onclick="contarParesImpares()">Contar Pares e Impares</button>
+        <p id="paresImparesResultado"></p>
+      </div>
+    </div>
+  </div>
+  <script src="act3.js"></script>
+</body>
+</html>
+
